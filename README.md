@@ -45,6 +45,6 @@ We have used textembedding-gecko@003 from Vertex AI to convert the data into emb
 
 3. Copy the contents of the JAVA file and pom.xml file from this project and replace the ones in your new Google Cloud Java Cloud Function.
 
-4. Change the PROJECT_ID placeholder in the JAVA file in this project.
+4. Remember to change the <<PROJECT_ID>> placeholder and the AlloyDB connection credentials in the Java class with your values.
 
 5. Deploy the Cloud Function and test it from the TESTING tab of your newly deployed Cloud Functions (If there are deployment errors you can see them in the LOGS tab).
