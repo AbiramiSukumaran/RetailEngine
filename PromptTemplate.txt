@@ -1,0 +1,79 @@
+Generate YAML OpenAPI spec for the API details below:
+
+The API endpoint: https://us-central1-*****.cloudfunctions.net/alloy-gem
+
+API Request JSON: 
+{
+  "search": "I am looking for white tee shirts with blue prints on it"
+}
+
+API Response JSON:
+
+[{"id":"1250","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/Doodle-Boy-Grand-Prix-Blue-Shirts_755156e9ed54fce087dddb94193ce811_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Shirts White Casual Doodle Boys Grand Prix White Shirt. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/Doodle-Boy-Grand-Prix-Blue-Shirts_755156e9ed54fce087dddb94193ce811_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product record is for a boys' shirt, while the user search text does not specify a gender.\""},{"id":"1266","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/3f8bd2857ec6eae50e6fad34024acf62_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Shirts White Casual Gini and JonyBoys Around the World White Shirts. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/3f8bd2857ec6eae50e6fad34024acf62_images.jpg","literature":"\" **MATCH:** YES\\n**PERCENTAGE:** 80%\\n**DIFFERENCE:** The product record is for boys, while the user search text does not specify gender.\""},{"id":"1197","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/553b3cec5a88fbef0ee6833ebb7108df_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Shirts White Casual Gini and Jony Boys Around the World White Shirts. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/553b3cec5a88fbef0ee6833ebb7108df_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product record is for boys, while the user search text does not specify gender.\""},{"id":"811","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/Jungle-Book-Boys-Royal-White-T-shirt_31a7b0991a3df5d48939842620fc4765_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Tshirts White Casual Jungle Book Boys Royal White T-shirt. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/Jungle-Book-Boys-Royal-White-T-shirt_31a7b0991a3df5d48939842620fc4765_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product record is for boys, while the user search text does not specify gender.\""},{"id":"991","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/6ade570f19db5d3de04db8c0b83f86c3_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Shirts White Casual United Colors of Benetton Boys Printed White Shirt. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/6ade570f19db5d3de04db8c0b83f86c3_images.jpg","literature":"\" **MATCH:** YES\\n**PERCENTAGE:** 80%\\n**DIFFERENCE:** The product record is for a boys' shirt, while the user search text does not specify a gender.\""},{"id":"986","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/b0958294f6e8fa64f22bbde2e3c7f988_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Shirts White Casual Gini and Jony Boys Shirt White Shirts. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/b0958294f6e8fa64f22bbde2e3c7f988_images.jpg","literature":"\" **MATCH:** YES\\n**PERCENTAGE:** 80%\\n**DIFFERENCE:** The product record is for a boys' shirt, while the user search text does not specify a gender.\""},{"id":"192","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/b71ddd8fc49c9e1e0789239c9c4f027d_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Girls Tshirts White Casual Doodle girls Hippie Chic White Kidswear. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/b71ddd8fc49c9e1e0789239c9c4f027d_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product is a girls' t-shirt, while the user is looking for a white shirt.\""},{"id":"619","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/4c5a824570499b10fd868889c206f799_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Tshirts White Casual Doodle boys Athletic 77 Dept White Kidswear. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/4c5a824570499b10fd868889c206f799_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product record specifies that the shirt is for boys, while the user search text does not specify gender.\""},{"id":"760","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/d08dc8fd391c00f27388e2b3b2f0cce1_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Tshirts White Casual Jungle Book Boys Lucky White T-shirt. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/d08dc8fd391c00f27388e2b3b2f0cce1_images.jpg","literature":"\" **MATCH:** YES\\n**PERCENTAGE:** 80%\\n**DIFFERENCE:** The product record is for a boys' white T-shirt with a jungle book print, while the user is looking for a white shirt with blue prints. The product record does not mention blue prints.\""},{"id":"1301","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/Ant-Kids-Boys-Whats-Up-White-Navy-Kidswear_84e9a9cc8cb9a0649db285ecd823cb83_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Tshirts White Casual Ant Kids boys Whats Up White Navy Kidswear. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/Ant-Kids-Boys-Whats-Up-White-Navy-Kidswear_84e9a9cc8cb9a0649db285ecd823cb83_images.jpg","literature":"\" **MATCH:** YES\\n**PERCENTAGE:** 80%\\n**DIFFERENCE:** The product record is for a boy's white T-shirt with a navy blue print, while the user is looking for a white shirt with a blue print. The product record does not specify whether the shirt is casual or not, while the user is looking for a casual shirt.\""},{"id":"695","category":"Apparel","sub_category":"Topwear","uri":"http://assets.myntassets.com/v1/images/style/properties/f34635d19c9697add9d399a45cf112b0_images.jpg","description":"This product category is: Apparel and sub_category is: Topwear. The description of the product is as follows: Boys Tshirts White Casual Jungle Book Boys Safari White T-shirt. The product image is stored at: http://assets.myntassets.com/v1/images/style/properties/f34635d19c9697add9d399a45cf112b0_images.jpg","literature":"\" MATCH: YES\\nPERCENTAGE: 80%\\nDIFFERENCE: The product record is for boys, while the user search text does not specify gender.\""}]
+
+Example output  OpenAPI YAML Spec generated for one endpoint: 
+
+openapi: 3.0.0
+info:
+ title: AlloyDB Product Matcher
+ description: A Cloud Function to query AlloyDB for product matches based on user search text.
+ version: 1.0.0
+servers:
+ - url: https://us-central1-abis-345004.cloudfunctions.net/alloy-gem
+paths:
+ /:
+  post:
+   summary: Find matching products based on search text.
+   operationId: apparelSearch
+   requestBody:
+    description: JSON object containing the search text.
+    required: true
+    content:
+     application/json:
+      schema:
+       type: object
+       properties:
+        search:
+         type: string
+         description: The user's search query for product matching.
+   responses:
+    '200':
+     description: Successful response with a JSON array of matching products.
+     content:
+      application/json:
+       schema:
+        type: array
+        items:
+         type: object
+         properties:
+          id:
+           type: string
+           description: Product ID.
+          category:
+           type: string
+           description: Product category.
+          sub_category:
+           type: string
+           description: Product sub-category.
+          uri:
+           type: string
+           description: Product URI or URL.
+          description:
+           type: string
+           description: Product description.
+          literature:
+           type: object
+           description: JSON object containing match information from the ML model.
+           properties:
+            MATCH:
+             type: string
+             description: Whether the product matches the search query (YES/NO).
+            PERCENTAGE:
+             type: string
+             description: Percentage of match.
+            DIFFERENCE:
+             type: string
+             description: Description of differences between the search and product.
+    '500':
+     description: Internal server error.
+
