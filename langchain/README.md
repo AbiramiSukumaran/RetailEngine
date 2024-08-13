@@ -1,9 +1,18 @@
+# Deploy Retail Shopping App to GCF
+
+`main.py` contains the steps needed to deploy the Retail Shopping App.
+
+
+**Unused files but used as references:**
+
+ 1. `data.csv` is used by `extra.py::setup()` function to ingest data into Alloy DB.
+ 2. `extra.py::hello_http_no_langchain()` function shows a non-langchain way (more complicated approach) to query the data.
+
+
 ## Command to deploy to GCF
 
 ```
-# Detect your public IP: `curl ipecho.net/plain` and add to GCF
-
-# Deploy the GCF
+# Replace placeholder variables, such as `<<PROJECT_ID>>`
 gcloud functions deploy <<CLOUD_FUNCTION_NAME>> \
     --entry-point main.py \
     --runtime python312 \
