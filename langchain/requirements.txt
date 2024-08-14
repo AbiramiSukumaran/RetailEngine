@@ -1,0 +1,11 @@
+flask==3.0.3
+functions-framework==3.*
+google-cloud-alloydb-connector[pg8000]==1.2.0
+SQLAlchemy==2.0.31
+asyncio
+
+
+langchain-google-vertexai
+langchain_google_alloydb_pg
+langchain
+pandas
