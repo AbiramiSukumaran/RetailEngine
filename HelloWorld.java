@@ -81,7 +81,7 @@ public  HikariDataSource AlloyDbJdbcConnector() {
    String ALLOYDB_DB = "*****";
    String ALLOYDB_USER = "*****";
    String ALLOYDB_PASS = "*****";
-   String ALLOYDB_INSTANCE_NAME = "projects/<<YOUR_PROJECT_ID>>/locations/us-central1/clusters/vector-cluster/instances/vector-instance";
+   String ALLOYDB_INSTANCE_NAME = "projects/<<YOUR_PROJECT_ID>>/locations/us-central1/clusters/<<ALLOYDB_CLUSTER_NAME>>/instances/<<ALLOYDB_INSTANCE_NAME>>";
     HikariConfig config = new HikariConfig();
     config.setJdbcUrl(String.format("jdbc:postgresql:///%s", ALLOYDB_DB));
     config.setUsername(ALLOYDB_USER); // e.g., "postgres"
