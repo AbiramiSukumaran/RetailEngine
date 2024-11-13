@@ -104,7 +104,7 @@ try (Connection connection = dataSource.getConnection()) {
   String ALLOYDB_DB = "postgres";
   String ALLOYDB_USER = "postgres";
   String ALLOYDB_PASS = "alloydb";
-  String ALLOYDB_INSTANCE_NAME = "projects/$PROJECT_ID/locations/us-central1/clusters/shopping-cluster/instances/shopping-cluster-primary";
+  String ALLOYDB_INSTANCE_NAME = "projects/$PROJECT_ID/locations/us-central1/clusters/shopping-cluster/instances/shopping-instance";
    HikariConfig config = new HikariConfig();
    config.setJdbcUrl(String.format("jdbc:postgresql:///%s", ALLOYDB_DB));
    config.setUsername(ALLOYDB_USER); // e.g., "postgres"
